@@ -17,6 +17,7 @@ This project is a GUI-based application that predicts insurance charges based on
 - **Data Processing**: Handled with Pandas and NumPy.
 - **Machine Learning**: Implemented using Scikit-learn (Sklearn).
 - **Image Handling**: Managed with PIL (Pillow).
+![image](https://github.com/user-attachments/assets/4233c4c3-976b-4afa-b9b5-2a04118a4136)
 
 ## Key Sections
 
