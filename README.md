@@ -70,10 +70,10 @@ This project is a GUI-based application that predicts insurance charges based on
 - **Prediction**: predicted_charge = model.predict(new_data)[0] predicts insurance charges for new user input.
 
 ### Overall Workflow
-**1.	Data Preprocessing**: The data is cleaned and encoded for modeling.
-**2.	Model Training**: A linear regression model is trained on the preprocessed data.
-**3.	GUI Interaction**: Users input their information through the GUI.
-**4.	Prediction**: The model predicts insurance charges based on user input.
-**5.	Display Results**: The predicted insurance charge is displayed back to the user.
+- **1.	Data Preprocessing**: The data is cleaned and encoded for modeling.
+- **2.	Model Training**: A linear regression model is trained on the preprocessed data.
+- **3.	GUI Interaction**: Users input their information through the GUI.
+- **4.	Prediction**: The model predicts insurance charges based on user input.
+- **5.	Display Results**: The predicted insurance charge is displayed back to the user.
 
 
