@@ -63,3 +63,16 @@ This project is a GUI-based application that predicts insurance charges based on
 - **Example**:
   ```python
   df['sex'] = sex_encoder.transform(df['sex'])
+###   Linear Regression:
+- **Purpose**:  The model predicts the insurance charges based on the relationship between the independent variables (age, sex, bmi, children, smoker, region) and the dependent variable (charges).
+- **Training**: model.fit(X, y) trains the model on the dataset.
+- **Prediction**: predicted_charge = model.predict(new_data)[0] predicts insurance charges for new user input.
+
+### Overall Workflow
+**1.	Data Preprocessing**: The data is cleaned and encoded for modeling.
+**2.	Model Training**: A linear regression model is trained on the preprocessed data.
+**3.	GUI Interaction**: Users input their information through the GUI.
+**4.	Prediction**: The model predicts insurance charges based on user input.
+**5.	Display Results**: The predicted insurance charge is displayed back to the user.
+
+
